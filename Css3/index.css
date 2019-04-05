@@ -1,0 +1,32 @@
+:root {
+    --global-variable: pink;
+    
+}
+
+@media(max-width: 350px) {
+    :root{
+        --variable-when-width-smaller-than-350: white;
+    }
+}
+
+.variable {
+    --variable-1: gray;
+}
+
+.class {
+    font-family: Lobster, monospace;
+}
+
+#id {
+    color: green !important;
+    display: flex;
+    flex: 1 1 150px;
+}
+
+[type='checkbox'] {
+    margin: 40px 20px 40px 20px;
+}
+
+h1 {
+     background-color: var(--variable-1 black); 
+}
