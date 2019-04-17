@@ -1,0 +1,12 @@
+{
+    "name": "docker-hello",
+    "version": "1.0.0",
+    "description": "My docker hello world program",
+    "main": "index.js",
+    "scripts": {
+        "start": "NODE_ENV=production node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Zhangxi Lam",
+    "license": "ISC"
+}
